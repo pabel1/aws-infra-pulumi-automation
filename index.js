@@ -35,7 +35,7 @@ const publicSubnet = new aws.ec2.Subnet("public-subnet", {
   },
 });
 
-// Create Private Subnet
+// Create Private Subnet`
 const privateSubnet = new aws.ec2.Subnet("private-subnet", {
   vpcId: vpc.id,
   cidrBlock: config.vpc.privateSubnet,
