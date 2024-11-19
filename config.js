@@ -17,6 +17,6 @@ exports.config = {
   ec2: {
     instanceType: "t2.micro",
     ami: "ami-0f5ee92e2d63afc18", // Ubuntu 20.04 LTS in ap-south-1
-    keyName: "your-key-pair-name", // Change this to your key pair name
+    keyName: "your-key-pair-name",
   },
 };
